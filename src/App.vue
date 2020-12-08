@@ -1,28 +1,21 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <b-container class="bv-example-row">
+      <b-row>
+        <b-col>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean auctor quis orci nec vulputate. Praesent id hendrerit magna. Duis vehicula eu mi mattis pharetra. Sed quam odio, hendrerit sed efficitur eu, luctus quis eros. Phasellus sodales non neque id posuere. Proin volutpat justo id viverra fringilla. Fusce vulputate non turpis quis commodo.</b-col>
+        <b-col>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean auctor quis orci nec vulputate. Praesent id hendrerit magna. Duis vehicula eu mi mattis pharetra. Sed quam odio, hendrerit sed efficitur eu, luctus quis eros. Phasellus sodales non neque id posuere. Proin volutpat justo id viverra fringilla. Fusce vulputate non turpis quis commodo.</b-col>
+        <b-col>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean auctor quis orci nec vulputate. Praesent id hendrerit magna. Duis vehicula eu mi mattis pharetra. Sed quam odio, hendrerit sed efficitur eu, luctus quis eros. Phasellus sodales non neque id posuere. Proin volutpat justo id viverra fringilla. Fusce vulputate non turpis quis commodo.</b-col>
+      </b-row>
+    </b-container>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
 export default {
   name: 'App',
-  components: {
-    HelloWorld
-  }
+  components: {}
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
 </style>
